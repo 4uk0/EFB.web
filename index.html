@@ -514,7 +514,7 @@
     <div class="foot">
       <div class="logo" style="font-size:15px;"><div class="logo-mark" style="width:26px;height:26px;font-size:13px;">✈</div> EFB</div>
       <div>Your personal Electronic Flight Bag · For every pilot</div>
-      <div><a href="mailto:hello@skylist.app">hello@skylist.app</a></div>
+      <div><a href="mailto:digitalflighttools@gmail.com">digitalflighttools@gmail.com</a></div>
     </div>
   </div>
 </footer>
@@ -572,7 +572,7 @@
       message: document.getElementById('message').value
     };
     try {
-      const res = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      const res = await fetch('https://formspree.io/f/xjgzndbo', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify(data)
@@ -586,7 +586,7 @@
     } catch (err) {
       btn.disabled = false;
       btn.textContent = 'Send request';
-      alert('Something went wrong. Please email us directly at hello@skylist.app');
+      alert('Something went wrong. Please email us directly at digitalflighttools@gmail.com');
     }
   });
 </script>
